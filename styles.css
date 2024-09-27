@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #0288d1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#bienvenida, #informacionHospital, #serviciosHospital, #ubicacionHospital, #accesoInformacion {
+    margin-bottom: 40px;
+}

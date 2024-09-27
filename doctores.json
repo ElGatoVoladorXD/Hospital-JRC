@@ -1,0 +1,80 @@
+{
+    
+        "Medicos": [
+          {
+            "ID": 1,
+            "Nombre": "Dr. Carlos Gómez",
+            "Especialidad": "Cardiología",
+            "Telefono": "555-1234",
+            "Correo": "carlos.gomez@hospital.com"
+          },
+          {
+            "ID": 2,
+            "Nombre": "Dra. Laura Martínez",
+            "Especialidad": "Pediatría",
+            "Telefono": "555-5678",
+            "Correo": "laura.martinez@hospital.com"
+          },
+          {
+            "ID": 3,
+            "Nombre": "Dr. Enrique Sánchez",
+            "Especialidad": "Neurología",
+            "Telefono": "555-8765",
+            "Correo": "enrique.sanchez@hospital.com"
+          },
+          {
+            "ID": 4,
+            "Nombre": "Dra. María Hernández",
+            "Especialidad": "Dermatología",
+            "Telefono": "555-4321",
+            "Correo": "maria.hernandez@hospital.com"
+          },
+          {
+            "ID": 5,
+            "Nombre": "Dr. Pedro Ramírez",
+            "Especialidad": "Cirugía General",
+            "Telefono": "555-6789",
+            "Correo": "pedro.ramirez@hospital.com"
+          },
+          {
+            "ID": 6,
+            "Nombre": "Dra. Silvia Morales",
+            "Especialidad": "Ginecología",
+            "Telefono": "555-2345",
+            "Correo": "silvia.morales@hospital.com"
+          },
+          {
+            "ID": 7,
+            "Nombre": "Dr. José López",
+            "Especialidad": "Oncología",
+            "Telefono": "555-9876",
+            "Correo": "jose.lopez@hospital.com"
+          },
+          {
+            "ID": 8,
+            "Nombre": "Dra. Fernanda Torres",
+            "Especialidad": "Psiquiatría",
+            "Telefono": "555-3456",
+            "Correo": "fernanda.torres@hospital.com"
+          },
+          {
+            "ID": 9,
+            "Nombre": "Dr. Rafael García",
+            "Especialidad": "Ortopedia",
+            "Telefono": "555-6543",
+            "Correo": "rafael.garcia@hospital.com"
+          },
+          {
+            "ID": 10,
+            "Nombre": "Dra. Carmen Ríos",
+            "Especialidad": "Oftalmología",
+            "Telefono": "555-7890",
+            "Correo": "carmen.rios@hospital.com"
+          }
+        ]
+      }
+      
+   
+    
+  
+  

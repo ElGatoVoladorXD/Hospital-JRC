@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital RJC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .services-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .service {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+
+        .service i {
+            font-size: 40px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .service h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .consultas-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .consultas-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .consultas-section .consulta-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .consulta-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Hospital "Los Angeles" </h1>
+        <p>Bienvenidos a nuestro sistema de gestión</p>
+		<p>A continuacion se muestran algunos de los departamentos de nuestro hospital</p>
+		
+    </header>
+
+    <!-- Sección de nuestros servicios con iconos -->
+    <section class="services-section">
+        <div class="service">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Cardiología</h3>
+            <p>Atención especializada en el cuidado del corazón.</p>
+        </div>
+
+        <div class="service">
+            <i class="fas fa-baby"></i>
+            <h3>Pediatría</h3>
+            <p>Cuidados para los más pequeños de la familia.</p>
+        </div>
+
+        <div class="service">
+            <i class="fas fa-brain"></i>
+            <h3>Neurología</h3>
+            <p>Diagnóstico y tratamiento de enfermedades neurológicas.</p>
+        </div>
+
+        <div class="service">
+            <i class="fas fa-user-md"></i>
+            <h3>Cirugía General</h3>
+            <p>Soluciones quirúrgicas con los mejores profesionales.</p>
+        </div>
+
+        <div class="service">
+            <i class="fas fa-eye"></i>
+            <h3>Oftalmología</h3>
+            <p>Cuidado de la salud visual para todas las edades.</p>
+        </div>
+    </section>
+
+    <!-- Sección de consultas con botones -->
+    <section class="consultas-section">
+        <h2>Consultas</h2>
+        <a href="paciente.html" class="consulta-btn">Consulta Pacientes</a>
+        <a href="doctores.html" class="consulta-btn">Consulta Médicos</a>
+    </section>
+
+</body>
+</html>
